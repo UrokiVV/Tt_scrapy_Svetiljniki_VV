@@ -7,7 +7,6 @@ class DivannewparsSpider(scrapy.Spider):
     category_obj = "/category/krovati-i-matrasy"
     # category_obj = "/category/svet"
 
-
     site_name = "https://www.divan.ru"
     start_urls = [ site_name + category_obj]
 
